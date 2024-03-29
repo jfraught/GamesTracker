@@ -13,6 +13,9 @@
 		F9319EFF2BB4AF1A00F858EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9319EFE2BB4AF1A00F858EE /* Assets.xcassets */; };
 		F9319F022BB4AF1A00F858EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F9319F012BB4AF1A00F858EE /* Base */; };
 		F9319F0A2BB4AFBF00F858EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9319F092BB4AFBF00F858EE /* Player.swift */; };
+		F9516A942BB4DD7700B091FE /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9516A932BB4DD7700B091FE /* PlayerTableViewCell.swift */; };
+		F9FFE8442BB5A8EF0091EC82 /* PlayerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE8432BB5A8EF0091EC82 /* PlayerListTableViewController.swift */; };
+		F9FFE8462BB5C6130091EC82 /* PlayerDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE8452BB5C6130091EC82 /* PlayerDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F9319F012BB4AF1A00F858EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9319F032BB4AF1A00F858EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9319F092BB4AFBF00F858EE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F9516A932BB4DD7700B091FE /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		F9FFE8432BB5A8EF0091EC82 /* PlayerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListTableViewController.swift; sourceTree = "<group>"; };
+		F9FFE8452BB5C6130091EC82 /* PlayerDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				F9319EF52BB4AF1800F858EE /* AppDelegate.swift */,
 				F9319EF72BB4AF1800F858EE /* SceneDelegate.swift */,
-				F9319F092BB4AFBF00F858EE /* Player.swift */,
 				F9319EFB2BB4AF1800F858EE /* Main.storyboard */,
+				F9319F092BB4AFBF00F858EE /* Player.swift */,
+				F9FFE8452BB5C6130091EC82 /* PlayerDetailTableViewController.swift */,
+				F9FFE8432BB5A8EF0091EC82 /* PlayerListTableViewController.swift */,
+				F9516A932BB4DD7700B091FE /* PlayerTableViewCell.swift */,
 				F9319EFE2BB4AF1A00F858EE /* Assets.xcassets */,
 				F9319F002BB4AF1A00F858EE /* LaunchScreen.storyboard */,
 				F9319F032BB4AF1A00F858EE /* Info.plist */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9319F0A2BB4AFBF00F858EE /* Player.swift in Sources */,
+				F9FFE8462BB5C6130091EC82 /* PlayerDetailTableViewController.swift in Sources */,
+				F9516A942BB4DD7700B091FE /* PlayerTableViewCell.swift in Sources */,
+				F9FFE8442BB5A8EF0091EC82 /* PlayerListTableViewController.swift in Sources */,
 				F9319EF62BB4AF1800F858EE /* AppDelegate.swift in Sources */,
 				F9319EF82BB4AF1800F858EE /* SceneDelegate.swift in Sources */,
 			);
