@@ -49,7 +49,6 @@ class PlayerDetailTableViewController: UITableViewController, UITextFieldDelegat
         } else {
             player = Player(name: name, score: score)
         }
-
     }
 
     // MARK: - Functions

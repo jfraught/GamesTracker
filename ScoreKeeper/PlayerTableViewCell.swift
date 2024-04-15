@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol PlayeTableViewCellDelegate: AnyObject {
+protocol PlayerTableViewCellDelegate: AnyObject {
     func stepperTapped(sender: PlayerTableViewCell)
 }
 
 class PlayerTableViewCell: UITableViewCell {
-    weak var delegate: PlayeTableViewCellDelegate?
+    weak var delegate: PlayerTableViewCellDelegate?
     @IBOutlet var playerNameLabel: UILabel!
     @IBOutlet var scoreStepper: UIStepper!
     @IBOutlet var scoreLabel: UILabel!
