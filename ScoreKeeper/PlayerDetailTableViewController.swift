@@ -22,7 +22,7 @@ class PlayerDetailTableViewController: UITableViewController, UITextFieldDelegat
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("Test github")
         if let player {
             navigationItem.title = player.name
             nameTextField.text = player.name
